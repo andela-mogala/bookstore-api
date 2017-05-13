@@ -1,6 +1,6 @@
 pub1 = PublishingHouse.create name: "ABC Publisher", discount: 40
 pub2 = PublishingHouse.create name: "Acme Publishing House", discount: 50
-pub3 = PublishingHouse.create name: "Foobar Corporation", discount: 4
+pub3 = PublishingHouse.create name: "Foobar Corporation", discount: 55
 
 author1 = Author.create name: "James Jackson"
 author2 = Author.create name: "Roberta Rock"
@@ -13,9 +13,9 @@ author7 = Author.create name: "Charlie Chuck"
 book1 = Book.create title: "The Great Escape", author: author7, publisher: pub1, price: 24.20
 book2 = Book.create title: "Saving Myself", author: author6, publisher: pub1, price: 14.13
 book3 = Book.create title: "The Killer Doctors", author: author5, publisher: pub1, price: 15.12
-book4 = Book.create title: "Mariane", author: author7, publisher: pub1, price: 10.50
+book4 = Book.create title: "Mariane", author: author4, publisher: pub1, price: 10.50
 book5 = Book.create title: "On The Verge Of Salvation", author: author4, publisher: pub2, price: 11.76
-book6 = Book.create title: "Fields of L", author: author7, publisher: pub2, price: 27.87
+book6 = Book.create title: "Fields of L", author: author3, publisher: pub2, price: 27.87
 book7 = Book.create title: "Waterfront", author: author2, publisher: pub2, price: 11.97
 book8 = Book.create title: "Bored as Hell", author: author6, publisher: pub3, price: 10.96
 book9 = Book.create title: "History of the Silk Road", author: author7, publisher: pub3, price: 8.10
